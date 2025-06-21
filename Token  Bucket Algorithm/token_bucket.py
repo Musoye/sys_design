@@ -5,7 +5,7 @@ class TokenBucketAlgorithm:
     def __init__(self, capacity, fill_rate):
         self.capacity = capacity          # Maximum tokens the bucket can hold
         self.fill_rate = fill_rate        # Tokens added per second
-        self.tokens = capacity            # Current tokens in the bucket
+        self.tokens = 1                   # Current tokens in the bucket
         self.last_time = time.time()      # Last time the bucket was refilled
 
     def _refill(self):
