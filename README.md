@@ -1,2 +1,3 @@
-# sys_design
-A repository for implementationof some system design
+# System Design
+
+A repository for implementing some system design
